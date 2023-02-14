@@ -9,10 +9,10 @@ from hachoir.parser import createParser
 from PIL import Image
 
 # Configs
-API_HASH = os.environ['API_HASH'] # Api hash
-APP_ID = int(os.environ['APP_ID']) # Api id/App id
-BOT_TOKEN = os.environ['BOT_TOKEN'] # Bot token
-OWNER_ID = int(os.environ['OWNER_ID']) # Your telegram id
+API_HASH = os.environ['e8ec35bc8449ef3fae5b4bb0a5b302de'] # Api hash
+APP_ID = int(os.environ['14358897']) # Api id/App id
+BOT_TOKEN = os.environ['6010289781:AAGQkmAN5qVh8zs9ZxqdQMXCGuzBiOpfYNw'] # Bot token
+OWNER_ID = int(os.environ['21040638']) # Your telegram id
 AS_DOC = os.environ['AS_DOC'] # Upload method. If True: will send as document | If False: will send as video
 DEFAULT_THUMBNAIL = os.environ['DEFAULT_THUMBNAIL'] # Default thumbnail. Used if bot can't find streamtape video thumbnail
 
